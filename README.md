@@ -1,0 +1,2 @@
+# sails
+Sample Sails application
