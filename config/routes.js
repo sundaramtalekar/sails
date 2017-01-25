@@ -45,6 +45,7 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
-  'post /product/save': 'ProductController.saveProduct'
+  'post /product': 'ProductController.saveProduct',
+  'put /product': 'ProductController.updateProduct'
 
 };

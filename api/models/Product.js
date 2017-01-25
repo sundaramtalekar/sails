@@ -15,19 +15,16 @@ module.exports = {
   	},
     name: {
       type: 'string',
-      size: 200
+      size: 200,
+      required: true
     },
     price: {
-      type: 'float'
+      type: 'float',
+      required: true
     },
     quantity: {
-      type: 'integer'
-    },
-    updated_at: {
-      type: 'datetime'
-    },
-    created_at: {
-      type: 'datetime'
+      type: 'integer',
+      required: true
     },        
     category_id: {
       type: 'integer'

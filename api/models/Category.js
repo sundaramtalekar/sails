@@ -16,12 +16,6 @@ module.exports = {
     name: {
       type: 'string',
       size: 200
-    },
-    updated_at: {
-      type: 'datetime'
-    },
-    created_at: {
-      type: 'datetime'
     }
   }
 };
